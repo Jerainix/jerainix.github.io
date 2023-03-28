@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 3)), url("assets/back.png");
+    background-position: center;
+    background-size: cover;
+}
+
+:root {
+    --main-color: #FDB10B;
+    --dark-color: #090b0c;
+}
+
+.theme-text {
+    color: var(--main-color);
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: var(--main-color);
+}
+
+.navbar {
+    padding: 2%;
+}
+
+.middle {
+    margin-top: 10vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.middle h1 {
+    color: var(--main-color);
+    font-size: 7.0vh;
+}
+
+.middle .avatar {
+    border-radius: 50%;
+    border: 5px solid var(--main-color);
+    position: relative;
+}
+
+.wave {
+    position: static;
+    margin: 0;
+    padding: 0;
+    bottom: -100px;
+    width: 100%;
+}
+
+.content-section {
+    display: inline-block;
+    margin-bottom: 5%;
+    background-color: var(--dark-color);
+    padding-top: 5%;
+}
+
+.cards {
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 20px;
+}
+
+footer {
+    background-color: var(--dark-color);
+}
+
+.contact {
+    font-size: 40px;
+}
+
+.contact i {
+    color: white;
+    width: 20px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.contact i:hover {
+    color: var(--main-color);
+    transform: scale(1.5);
+}
+
+.text-section {
+    color: var(--main-color);
+}
+
+.main-btn {
+    background-color: var(--main-color);
+}
+
+.main-btn:hover {
+    background-color: #ffae00;
+}
