@@ -113,3 +113,8 @@ footer {
 .main-btn:hover {
     background-color: #ffae00;
 }
+
+.get-selected {
+    transition: 0.2s;
+    border: 5px solid var(--main-color);
+}

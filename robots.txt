@@ -1,2 +1,7 @@
 User-agent: Googlebot
-Disallow: /my-account/
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://jerainix.github.io/sitemap.xml
