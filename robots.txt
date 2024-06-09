@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://jerainix.github.io/sitemap.xml
+Sitemap: https://zhaxeee.github.io/sitemap.xml
